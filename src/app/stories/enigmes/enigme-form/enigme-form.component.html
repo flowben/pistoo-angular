@@ -1,0 +1,40 @@
+<section>
+    <form action="#" classe="formulaireReponse">
+        <h1 class="card-panel ">{{enigme.question}}</h1>
+        <div class="row">
+            <div class="col s12">
+                <div class="card-panel col s10 offset-s1 m8 offset-m2">
+                    <form action="#">
+                        <p>
+                          <label>
+                            <input class="with-gap" name="group1" type="radio" checked />
+                            <span>{{enigme.prop1}}</span>
+                          </label>
+                        </p>
+                        <p>
+                          <label>
+                            <input class="with-gap" name="group1" type="radio" />
+                            <span>{{enigme.prop2}}</span>
+                          </label>
+                        </p>
+                        <p>
+                          <label>
+                            <input class="with-gap" name="group1" type="radio"  />
+                            <span>{{enigme.prop3}}</span>
+                          </label>
+                        </p>
+                        <p>
+                            <label>
+                              <input class="with-gap" name="group1" type="radio"  />
+                              <span>{{enigme.prop4}}</span>
+                            </label>
+                        </p>
+                      </form>
+                    <p>
+                        <input routerLink = '/stories/enigmes/form/2' type="submit">
+                    </p>
+                </div>
+            </div>
+        </div>
+    </form>
+</section>
